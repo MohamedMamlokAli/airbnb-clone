@@ -4,7 +4,7 @@ const Form = () => {
     return (
         <form className="space-y-7">
             <div className="flex justify-center">
-                <div className="w-2/3 flex justify-evenly">
+                <div className="w-2/3 flex justify-evenly ">
                     <button>
                         <span>Places to stay</span>
                     </button>

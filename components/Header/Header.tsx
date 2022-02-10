@@ -24,7 +24,7 @@ const Header = () => {
         >
             <Navbar offset={offset} />
             <div
-                className={`hidden md:block transition duration-75 -translate-y-9 opacity-100${
+                className={`hidden md:block transition duration-75 -translate-y-9 w-2/3 mx-auto opacity-100${
                     offset > 0 && 'opacity-0 scale-0 h-0'
                 }`}
             >
