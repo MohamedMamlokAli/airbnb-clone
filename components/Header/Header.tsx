@@ -20,7 +20,7 @@ const Header = () => {
         <header
             className={`text-white bg-transparent ${
                 offset > 0 && 'bg-white'
-            } fixed top-0 transition duration-200 w-full px-7 py-3`}
+            } fixed top-0 transition duration-200 w-full px-7 py-3 z-50`}
         >
             <Navbar offset={offset} />
             <div
